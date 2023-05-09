@@ -30,9 +30,9 @@ enable_object_processing = False
 subscriptions = 
 	mainsail
 
-[power 24v_power]
+[power Printer]
 type = gpio
-pin = gpio26
+pin = !gpio23
 initial_state = off
 on_when_job_queued = True
 locked_while_printing = True
