@@ -1,6 +1,6 @@
 #!/bin/sh
 config_path="/home/brian/printer_data/config"
-message="auto-commit from $USER@$(hostname -s) on $(date)"
+message="commit from $USER@$(hostname -s) on $(date)"
 
 cd ${config_path}
 git add .
