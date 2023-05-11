@@ -96,6 +96,7 @@ managed_services = klipper moonraker
 type = web
 repo = mainsail-crew/mainsail
 path = ~/mainsail
+channel = stable
 
 [update_manager moonraker-obico]
 type = git_repo
