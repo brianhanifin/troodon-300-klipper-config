@@ -1,7 +1,0 @@
-[include ../mainsail.cfg]
-[include *.cfg]
-[include KAMP/*.cfg]
-[include marlin-commands/*.cfg]
-[include ../timelapse.cfg]
-
-[include debug/*.cfg]
