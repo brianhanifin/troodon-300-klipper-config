@@ -1,0 +1,12 @@
+# Source: https://docs.vorondesign.com/community/macros/macros/120decibell.html
+[gcode_macro PURGE_BUCKET]
+gcode:
+  SAVE_GCODE_STATE NAME=PURGE
+  G90                    ; absolute
+  G0 X75 Y305 Z2         ; go to purge bucket
+  G1 X25 E10 F500        ; purge some filament into bucket
+  G1 X75 E3 F500         ; purge some filament into bucket
+  G0 X120 Y305 F750      ; move across purge brush
+  G1 E-2 F500            ; Retract a little
+  G1 Z3                  ; Raise and return
+  RESTORE_GCODE_STATE NAME=PURGE
