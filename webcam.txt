@@ -1,3 +1,8 @@
+camera="raspi"
+
+
+
+
 ### Windows users: To edit this file use Notepad++, VSCode, Atom or SublimeText.
 ### Do not use Notepad or WordPad.
 
@@ -13,7 +18,7 @@
 #
 # Defaults to auto
 #
-camera="usb"
+#camera="raspi"
 
 ### Additional options to supply to MJPG Streamer for the USB camera
 #
@@ -21,7 +26,7 @@ camera="usb"
 #
 # Defaults to a resolution of 640x480 px and a framerate of 10 fps
 #
-camera_usb_options="-r 1920x1080 -f 10"
+#camera_usb_options="-r 1920x1080 -f 10"
 
 ### Additional webcam devices known to cause problems with -f
 #
@@ -55,7 +60,7 @@ camera_usb_options="-r 1920x1080 -f 10"
 #
 # Defaults to 10fps
 #
-#camera_raspi_options="-fps 10"
+#camera_raspi_options="-fps 15"
 
 ### Configuration of camera HTTP output
 #
