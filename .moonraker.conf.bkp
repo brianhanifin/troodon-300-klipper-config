@@ -38,7 +38,7 @@ load_on_startup = True
 [power Printer]
 bound_services = klipper
 type = gpio
-pin = !gpio23
+pin = !gpio27
 initial_state = off
 on_when_job_queued = True
 locked_while_printing = True
